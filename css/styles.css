@@ -1,5 +1,11 @@
+:root {
+  --header-color: #2e2f42;
+  --footer-background: #2e2f42;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 
 .link {
@@ -16,6 +22,7 @@ body {
 /*!-------------------HEADER--------------------*/
 
 .header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-menu {
 }
@@ -83,7 +90,7 @@ body {
   color: #ffffff;
 }
 .hero-btn {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -95,9 +102,9 @@ body {
   background: #4d5ae5;
   cursor: pointer;
 }
-.hero.hero-btn:hover,
+.hero .hero-btn:hover,
 .hero .hero-btn:focus {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -106,6 +113,9 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /*!-------------------BENEFITS--------------------*/
@@ -122,14 +132,12 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--header-color);
 }
 .benefits-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /*!-------------------PRODUCTS--------------------*/
@@ -143,13 +151,15 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: --var(--header-color);
 }
 .products-list {
 }
 .products-item {
 }
 .products-img {
+  width: 360px;
+  height: 300px;
 }
 
 /*!-------------------TEAM--------------------*/
@@ -163,13 +173,15 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--header-color);
 }
 .team-list {
 }
 .team-item {
 }
 .team-img {
+  width: 264px;
+  height: 260px;
 }
 .team-subtitle {
   font-weight: 500;
@@ -180,21 +192,18 @@ body {
   color: #2e2f42;
 }
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /*!-------------------FOOTER--------------------*/
 
 .footer {
-  background: #2e2f42;
+  background: var(--footer-background);
 }
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -214,16 +223,19 @@ body {
   color: #f4f4fd;
 }
 
-/*!--------------------PORTFOLIO---------------*/
+/*!--------------------PORTFOLIO-MENU---------------*/
 
-.portfolio-title {
+.portfolio {
 }
-.portfolio-list {
+
+.portfolio-menu-title {
 }
-.portfolio-item {
+.portfolio-menu-list {
 }
-.portfolio-btn {
-  font-family: "Roboto";
+.portfolio-menu-item {
+}
+.portfolio-menu-btn {
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -234,11 +246,13 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
-.portfolio-item .portfolio-btn:hover,
-.portfolio-item .portfolio-btn:focus {
-  font-family: "Roboto";
+.portfolio-menu-item .portfolio-menu-btn:hover,
+.portfolio-menu-item .portfolio-menu-btn:focus {
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -249,4 +263,30 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+/*!--------------------PORTFOLIO-PRODUCTS--------------*/
+
+.portfolio-products-list {
+}
+.portfolio-products-item {
+}
+.porrtfolio-img {
+  width: 360px;
+  height: 300px;
+}
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
