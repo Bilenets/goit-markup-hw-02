@@ -29,7 +29,6 @@ body {
 /*!-------------------HEADER--------------------*/
 
 .header {
-  border-bottom: 1px solid #e7e9fc;
 }
 .header-menu {
 }
@@ -165,7 +164,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: --var(--header-color);
+  color: var(--header-color);
   text-align: center;
 }
 .products-list {
