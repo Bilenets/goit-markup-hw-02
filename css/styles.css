@@ -6,6 +6,7 @@
   --header-span-logo-color: #2e2f42;
   --footer-logo-color: #4d5ae5;
   --background-btn-portfolio: #f4f4fd;
+  --main-text: #434455;
 }
 
 body {
@@ -151,6 +152,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--main-text);
 }
 
 /*!-------------------PRODUCTS--------------------*/
@@ -288,8 +290,6 @@ body {
 .portfolio-products-item {
 }
 .porrtfolio-img {
-  width: 360px;
-  height: 300px;
 }
 .portfolio-subtitle {
   font-weight: 500;
@@ -302,4 +302,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--main-text);
 }
