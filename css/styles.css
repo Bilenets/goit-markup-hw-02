@@ -172,8 +172,6 @@ body {
 .products-item {
 }
 .products-img {
-  width: 360px;
-  height: 300px;
 }
 
 /*!-------------------TEAM--------------------*/
@@ -196,8 +194,6 @@ body {
   background-color: #ffffff;
 }
 .team-img {
-  width: 264px;
-  height: 260px;
 }
 .team-subtitle {
   font-weight: 500;
