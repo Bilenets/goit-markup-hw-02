@@ -106,6 +106,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 .hero-btn {
   font-family: inherit;
@@ -163,6 +164,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: --var(--header-color);
+  text-align: center;
 }
 .products-list {
 }
@@ -185,6 +187,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--header-color);
+  text-align: center;
 }
 .team-list {
 }
